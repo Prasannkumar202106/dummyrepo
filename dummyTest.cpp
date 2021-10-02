@@ -4,7 +4,7 @@
 
 	int main() {
 
-	  cout << " =====  Program to demonstrate Addition, Subtraction, Multiplication and Transpose of two Matrices ===== \n\n";
+	  cout << " =====  Program to Demonstrate Addition, Subtraction, Multiplication and Transpose of two Matrices ===== \n\n";
 	  int row, col1, col2, i, j, k;
 	  int m1[10][10], m2[10][10], m3[10][10], sum[10][10], sub[10][10], mul[10][10], transMatrix[10][10];
 
@@ -45,7 +45,7 @@
 	    cout << endl;
 	  }
 
-	  cout << "\nThe Addition of the matrix is : " << endl;
+	  cout << "\nThe addition of the matrix is : " << endl;
 
 	  for (i = 0; i < row; i++) {
 	    for (j = 0; j < col1; j++) {
@@ -74,7 +74,7 @@
 	    cout << endl;
 
 	  }
-	  cout << "\nThe Multiplication  of the Matrix is : " << endl;
+	  cout << "\nThe multiplication  of the Matrix is : " << endl;
 	  for (i = 0; i < row; i++) {
 	    for (j = 0; j < col1; j++) {
 	      mul[i][j] = 0;
